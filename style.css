@@ -1,0 +1,75 @@
+*{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  background: linear-gradient(87deg, #11cdef 0, #1171ef 100%) !important;
+  padding: 30px 40px 50px 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+header > span {
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.user {
+  display: flex;
+  align-items:center;
+}
+
+.user img {
+    width: 30px;
+    height: 30px;
+}
+
+.user span { 
+    margin-left: 10px;
+    color: #fff;
+    font-size: 14px;
+}
+
+
+.card p {
+  margin-bottom: 30px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.card label {
+  margin-top: 30px;
+}
+
+.card img {
+  width: 300px;
+  height: 300px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+  
+}
+
+.card img:hover {
+  transform: scale(1.1);
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 30px;
+  margin-top: 50px;
+}
